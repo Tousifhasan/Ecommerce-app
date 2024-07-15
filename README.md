@@ -1,3 +1,55 @@
+Step 1: Install Laravel
+Install PHP and Composer:
+Make sure you have PHP and Composer installed on your local machine. If not, download and install them.
+You can verify the installation by running php -v and composer -v in your terminal.
+Create a New Laravel Project:
+Open your terminal or command prompt.
+Navigate to the directory where you want to create your Laravel project.
+Run the following command to create a new Laravel project (replace my-ecommerce with your desired project name):
+
+
+Step 2: Set Up the Database
+Database Configuration:
+Open the .env file in your project root.
+Configure your database connection settings (database name, username, password, etc.).
+Create Migrations:
+Run the following command to create migrations for your product and transaction tables
+
+Step 3: Create Models and Relationships
+Create Models:
+Generate models for your Product and Transaction tables
+
+Step 4: Implement Backend Functionality
+Controllers:
+Create controllers (e.g., ProductController and TransactionController) to handle CRUD operations for products and transactions.
+Implement methods to display, update, and delete products (visible only to admins).
+Routes:
+Define routes for displaying products, transactions, and any other necessary functionality.
+Use middleware to restrict access to certain routes (e.g., only admins can view all transactions).
+
+Step 6: Test and Run
+Run the Development Server:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
